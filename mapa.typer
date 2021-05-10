@@ -1,0 +1,29 @@
+
+<div id="mapa-globo">
+
+</div>
+<script>
+    function inicializar(){
+        var coordenadas{lat: ,lng:};
+        var mapa-globo = new google.maps.Map(document.getElementById('mapa'),{
+            zoom:15,
+            center:coordenadas
+        
+        });
+
+        var marker = new google.maps.marker({
+            position:coordenadas
+            maps:mapa-globo
+            title:'Meu marcador'
+        })
+    }
+   
+
+</script>
+
+<script async defer
+
+ src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCsgxtB0h0dPN3JJRoGbtVLAX7hHpAo-ys">
+    
+
+</script>

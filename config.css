@@ -1,0 +1,187 @@
+@charset "UTF-8" ;
+
+head{
+    margin-top: -90px,1px,0px,0px;
+    background-color: black;
+}
+body{
+    width:  -10;
+    margin-top:auto;
+    margin-left: -10;
+    
+}
+.Empresa{
+    width: calc(100%-1px);
+    height: 570px;
+    background-image: url("EMPRESA.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+div#Leyout{
+    margin: 1px;
+    background-color: black;
+    color: rgb(4, 116, 22);
+   
+}
+nav#Menu ul{
+    margin: 5 px;
+    background: black;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: chartreuse;  
+    text-align-last: right;
+    padding: auto;
+   
+    
+}   
+nav#Menu li{ 
+    display: inline-block;
+    padding: 5px;
+    color: chartreuse;
+     font-size: 16px;
+        background-size: 12px;
+        font-weight:bolder;
+}
+nav#Menu h1{
+    display: none;
+}
+nav#login{
+    padding-top:auto    ;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif  
+}
+
+#mapa{
+    height:600px;
+    width:100%;
+    position:relative;
+    
+}
+
+h2{
+    
+    text-align-last: center;
+    color: rgb(117, 115, 115);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50;
+}
+
+div#Final-Pagina{
+    background-color: black;
+    color: chartreuse;
+    font-size: 20px;
+
+}
+
+ section{
+     display: block;
+     width: auto;
+     float: left;
+
+ }
+ footer{
+     clear:both;
+ }
+
+
+ h4{
+     color:white
+ }
+  
+div#FinalPagina,h3{ 
+    color: white;
+    background-color: black;
+
+   
+}
+div#p2{
+    color: white;
+    background-color: black;
+
+}
+
+div#RedeSocial{
+    background-color: black;
+    background-size: 10px;
+    text-decoration: none;
+}
+div#Final-pagina{
+
+    background-color: black;
+    color:chartreuse;
+    padding-left: 200px;
+    
+}
+h5{ 
+    background-color: black;
+    color:chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align-last:right;
+    font-size:100%;
+    
+
+
+}   
+div#Contatos-RioVerde{
+    color:white;
+    background-color: black;
+        text-align: right;
+        font-size: 14pt;   
+        padding-right:20px;
+}
+div#Contatos-Jatai{
+    color:white;
+    background-color: black;
+        text-align: right;
+        font-size: 14pt;
+        padding-right:20px;
+}
+#Contatos-ChapadãoCéu{
+    color:white;
+    background-color: black;
+        text-align: right;
+        font-size: 14pt;
+        padding-right:20px;
+      
+        
+}
+#Contato-Mineiros{
+    color:white;
+    background-color: black;
+        text-align: right;
+        font-size: 14pt;
+        padding-right:20px;
+      
+        
+}
+p1{
+    background-color: black;
+    color:chartreuse;
+     text-decoration: none;
+}
+#Contato-indiara{
+    position: top;
+    color:white;
+    background-color: black;
+        text-align: right;
+        font-size: 14pt;
+        padding-right:20px;
+
+}
+
+
+    
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="config.css" media="screen"/>
+    <script src="./index.js"></script>
+    <title>GLOBO</title>
+<div id = "Leyout">
+    
+    <img src="LOGOTIPO.PNG" alt="GLOBO"heigh=" -100px",width="300px">
+
+-
+    <nav id ="Menu">
+            <ul typer="Operação"> 
+            <li><a href="Noticia" target="_self"></a>Noticia</li>
+           <li><a href="Agronegocio" targert="_self"></a>Agronegócio </li>  
+           <li><a href="finalpagina"></a>Quem Somos ?</li> 
+           <li><a href="Contato_rioverde"targert="_self"></a>Contato</li>   
+             <button> <li> Entrar</li></button> 
+            </ul>
+              
+    </nav>
+</div>
+</head>
+<body>
+    <div class= "Empresa">
+          
+    </div>
+    <h2> Entre em Contato </h2>
+    
+
+    <div id="mapa">
+         
+
+    </div>
+    <script>
+        function inicializar(){
+            var coordenadas={lat:-17.8142,lng:-50.942131215};
+            var mapa = new google.maps.Map(document.getElementById('mapa'),{
+                zoom:15,
+                center:coordenadas
+            
+            });
+    
+            var marker = new google.maps.Marker({
+                position:coordenadas,
+                map:mapa,
+                title:'Meu marcador'
+            })
+        }
+       
+    
+    </script>
+    
+    <script async defer
+    
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWIGsQxRB0bR1sLO0uLd04C0G6ohAypEs&callback=inicializar">
+    
+        
+    
+    </script>
+ 
+
+    
+    <!-- Formulario -->
+    <aside class="Formulario">
+
+    
+
+    <!--GoogleMaps-->
+    
+
+</aside>
+</form>
+<section id="paginasweb">
+    <div id=Final-Pagina>
+    <h3>Globo Cereias</h3>
+    <p2>A globo cereais é uma empresa de consultoria de cormecialização <br>de commodities agricolas</p2>  
+    </div>
+    <h4>Você também pode nos acompnhar nas rede social  !!<br>
+    <div class=RedeSocial>
+        <br>
+         <a facebook href="http://fb.com/globocereais" target="_blank" rel = "external"><p1>@Facebook<p1></p1></a>
+         <br><a href="https://www.instagram.com/globocereais_gc/" target="_blank" ><p1>@Instagram</p1></a>
+         <br><a href="http://twitter.com/globocereais" target="_blank" rel = "external"><p1> @Twiter</p1></a>
+         <br><a href="http://wa.me/+5564992263310" target="_blank"rel = "external"><p1>Whatssap</a>
+        </h4>
+        <br>
+    </div>
+</section>  
+        <aside id="locais">
+        <div id="Contatos-RioVerde">
+            <br>
+            <h5>Entre em Contato com nossos Consultores </h5>
+
+            <p1>Rio Verde-Goiás</p1>
+            <br><p>Rua I, Quadra 8, Lt 230 Parque Solar do Agreste B </p>
+            Marcelo Sampaio <p1><tel>(64) 99219-7822</p1> </tel> <br>
+            Elcio Cabral <p1> <tel>(64) 99958-1000 </p1></tel> <br>
+            Moacyr <p1> <tel>(64) 99977-0143</tel> </p1><br>
+            Gildo Marques <p1><tel>(64) 9994-0120</p1></tel> 
+            <br>
+        </br>
+        </div>
+        
+        <div id="Contatos-Jatai">
+           <p1>Jatai-Goiás (Filial)</p1><br>
+             Rafael <p1><tel>(64)9994-5047</tel></p1>    
+        </div>
+
+                <div id="Contatos-ChapadãoCéu">
+                <p1>Chapadão do Céu - Goiás (Filial) </p1><br>
+                Késsia Garcia <p1><tel>(64) 99618-8037</tel></p1>
+                    
+        </div>
+
+        <div id="Contato-Mineiros">
+            <p1>Mineiros-Goiás (Filial)</p1><br>
+             Ricardo Furian <p1><tel>(64)99646-4848</tel></p1>
+        </div>
+        
+    
+        <div id= "Contato-indiara">
+        <p1>Idiara-Goiás (Filial)</p1><br>
+         Rogerio  <p1><tel>(64)99654-3678</tel></p1><br>
+         Wesley Pereira <p1><tel>(64)99643-0340</tel></p1><br>
+        João Leiva <p1><tel>(64)99834-9001</tel></p1>     
+    </div> 
+</aside>
+</body>
+</html>
